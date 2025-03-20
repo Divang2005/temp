@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: #b50b0bad;
+    background-size: cover;
+    background-position: center;
+}
+
+.btns {
+    display: flex;
+    column-gap: 2rem;
+    background-color: var(--color-white-shade);
+}
+
+.btn {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    color: #fff;
+    cursor: pointer;
+    transition: 
+    scale 0.25s ease-in;
+    opacity: 0.25s ease-in;
+    filter: 0.25s ease-in;
+
+}
+
+.btn:hover {
+scale: 1.2 ;
+}
+/* .btns:has(.btn:hover) .btn:not(.hover) {
+    scale: 0.5;
+    opacity: 0.5;
+    filter: blur(4px);
+} */

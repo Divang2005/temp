@@ -1,0 +1,60 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    width: 450px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Quicksand', 'Helvetica', Arial, sans-serif;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.inside {
+    width: 100%;
+    background-color: #222;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.day-of-week {
+    color: #ffffff33;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.active {
+    color: #ffffff;
+}
+
+.time {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+#ampm {
+    font-size: 1.5rem;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
