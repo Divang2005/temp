@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Video Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#travel">Travel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Travel Video Slider</h1>
+        <p>Explore the world through our curated travel videos.</p>
+    </section>
+
+    <section id="explore">
+        <h2>Explore Destinations through us</h2>
+        <div class="slider">
+            <div class="slide active">
+                <h3>Bali, Indonesia</h3>
+                <p>A tropical paradise known for its beautiful beaches and vibrant culture.</p>
+                <video controls autoplay muted>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="slide">
+                <h3>Paris, France</h3>
+                <p>The city of love, famous for its art, fashion, and iconic landmarks.</p>
+                <video controls autoplay muted>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="slide">
+                <h3>Tokyo, Japan</h3>
+                <p>A bustling metropolis blending tradition and modernity.</p>
+                <video controls autoplay muted>
+                    <source src="video3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="slide">
+                <h3>Delhi, India</h3>
+                <p>A city with rich history. Control the whole India.</p>
+                <video controls autoplay muted>
+                    <source src="video4.mp4" type="video/mp4">
+                    Your browser does not support the video tag. 
+                </video>
+            </div>
+            <div class="slide">
+                <h3>Mumbai, India</h3>
+                <p>A city where bollywood industry start.</p>
+                <video controls autoplay muted>
+                    <source src="video5.mp4" type="video/mp4">
+                    Your browser does not support the video tag. 
+                </video>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)" aria-label="Previous Slide">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)" aria-label="Next slide">&#10095;</button>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate travelers sharing our experiences through videos.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: divanggoyal522@gmail.com</p>
+        <p>Contact number: 8078626832</p>
+    </section>
+
+    <section id="travel">
+        <h2>Travel Tips</h2>
+        <p>Discover tips and tricks for your next adventure!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Travel Video Slider. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/divang_goyal1221" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@divanggoyal4798" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>    
+
+    <script src="slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.slider {
+    position: relative;
+    max-width: 100%; /* Full width of the container */
+    height: 700px; /* Increased height for the slider */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+video {
+    width: 100%; /* Full width of the slider */
+    height: 100%; /* Full height of the slider */
+    object-fit: cover; /* Cover the entire area */
+    border-radius: 5px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff; /* Icon color */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 24px; /* Icon size */
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-media a:hover {
+    color: #f4f4f4; /* Change color on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.social-media a:active {
+    transform: scale(0.95); /* Slight shrink when clicked */
+}
